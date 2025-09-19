@@ -1,0 +1,68 @@
+body {
+    background-color: aqua;
+}
+
+#bar {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 50px;
+    padding: 40px;
+    clear: both;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input[type="text"] {
+    width:200px;
+}
+
+input[type="text"]:focus {
+    width:300px;
+}
+
+#main-nav {
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+#main-nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+#main-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#main-nav a:hover {
+    background-color: #7c7c7c;
+    color: black;
+}
+
+.mainbox {
+    background-color: lime;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    width: 70%;
+    float: left;
+    font-family: fantasy;
+}
+
+#rules {
+    background-color: chartreuse;
+    float: right;
+    width: 15%;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 30px;
+    font-family: fantasy;
+}
+
+#rules:hover {
+    background-color: pink;
+}
+
